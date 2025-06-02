@@ -1040,7 +1040,7 @@ body {
 @media (min-width: 834px) {
   .header-content {
     width: 100%;
-
+    margin: auto auto;
     padding: 80px 72px;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
@@ -1343,5 +1343,362 @@ body {
     right: 0;
     top: 0;
     bottom: 0;
+  }
+}
+.navbar-header {
+  padding-left: 50px;
+  padding-right: 50px;
+}
+.nav-menu {
+  display: none;
+  gap: 10px;
+  align-items: center;
+}
+
+.nav-menu .nav-menu-items {
+  display: flex;
+  gap: 30px;
+  list-style: none;
+}
+
+.nav-menu .nav-menu-items li a {
+  text-decoration: none;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%; /* 22.4px */
+}
+
+.nav-menu .nav-btn-signup {
+  display: flex;
+  color: #fff;
+  text-align: center;
+  font-family: "Work Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 140%;
+  padding: 19px 30px;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  border-radius: 20px;
+  background: var(--Call-to-Action, #a259ff);
+  outline: none;
+  border: none;
+}
+
+.destop-Collection-Card-3 {
+  display: none;
+}
+
+.Artist-Card-desktop-2 {
+  display: none;
+}
+
+.NFTs-card-desktopmode-2 {
+  display: none;
+}
+
+.Subscribe-widget-containner {
+  display: flex;
+  padding: 40px 30px;
+  flex-direction: column;
+  align-items: center;
+  gap: 30px;
+  align-self: stretch;
+}
+
+@media (min-width: 1280px) {
+  .header-content {
+    padding-left: 115px;
+    padding-right: 115px;
+    margin: auto auto;
+  }
+  .nav-menu-img {
+    display: none;
+  }
+
+  .nav-menu {
+    display: flex;
+  }
+
+  .img-header-container {
+    width: 510px;
+    height: 510px;
+    margin: 0 auto;
+  }
+
+  .header-content .header-title-content h1 {
+    font-size: 67px;
+    width: 510px;
+    font-weight: 600;
+    line-height: 110%;
+  }
+
+  .header-content .header-title-content p {
+    font-size: 22px;
+    width: 510px;
+    font-weight: 400;
+    line-height: 160%;
+  }
+
+  .stats-section_header-contannier {
+    width: 510px;
+    margin: 40px 0;
+  }
+
+  .stats-section-header {
+    justify-content: flex-start;
+    gap: 30px;
+    align-self: stretch;
+  }
+
+  .stats-section-header-card h3 {
+    width: 150px;
+    font-family: "Space Mono";
+    font-size: 28px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+
+  .stats-section-header-card p {
+    font-family: "Work Sans";
+    font-size: 23.99px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+
+  .destop-Collection-Card-3 {
+    display: flex;
+  }
+
+  .Trending-Collection {
+    padding: 40px 115px;
+    margin: auto;
+  }
+
+  .Collection-Card {
+    width: 330px;
+  }
+
+  .imag-Collection-grids {
+    gap: 30px;
+  }
+  .Top-Rated-Artists {
+    padding-left: 115px;
+    padding-right: 115px;
+    margin: auto;
+  }
+  .Top-Rated-Artists-cards {
+    grid-template-columns: repeat(4, 1fr);
+  }
+
+  .Artist-Card {
+    width: 240px;
+    height: 238px;
+    padding: 20px;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+  }
+
+  .Artist-Card img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+  }
+
+  .Artist-Card-title h3 {
+    align-items: center;
+    margin: auto;
+    font-size: 22px;
+    font-weight: 600;
+    line-height: 140%; /* 30.8px */
+    text-transform: capitalize;
+  }
+
+  .Artist-Card-desktop-2 {
+    display: flex;
+  }
+
+  .Top-Rated-Artists-title {
+    justify-self: start;
+    margin-left: 0;
+  }
+
+  .Top-Rated-Artists-btn {
+    justify-self: end;
+    margin-right: 0;
+  }
+
+  .Browse-Categories {
+    margin: auto;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+  .Category-Card {
+    width: 240px;
+    height: 240px;
+    align-items: normal;
+  }
+
+  .Category-Cards-Grid {
+    row-gap: 30px;
+    grid-auto-rows: minmax(285px, auto);
+  }
+
+  .Discover-more-NFTs {
+    margin: auto;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+  .NFTs-card {
+    width: 420px;
+  }
+  .NFTs-card-desktopmode {
+    display: flex;
+  }
+
+  .NFT-Highlight {
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+
+  .NFT-Highlight .Artist-Card {
+    width: 151px;
+    height: 44px;
+    flex-direction: row;
+  }
+
+  .Auction-Timer {
+    justify-self: end;
+  }
+
+  .How-it-works {
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+
+  .Info-Card {
+    width: 330px;
+    height: 439px;
+  }
+
+  .Info-Card img {
+    width: 250px;
+    height: 250px;
+  }
+
+  .Info-Card-Details {
+    align-items: center;
+    width: 270px;
+    margin: auto;
+    margin-top: 0;
+    padding-top: 0;
+  }
+
+  .Info-Card-Details h3 {
+    font-size: 22px;
+
+    font-weight: 600;
+    line-height: 140%;
+    text-transform: capitalize;
+  }
+
+  .Info-Card-Details p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 140%;
+  }
+
+  .Subscribe-widget {
+    margin: auto;
+    padding-left: 115px;
+    padding-right: 115px;
+  }
+
+  .Subscribe-widget-containner {
+    display: flex;
+    width: 1050px;
+    padding: 60px;
+    align-items: center;
+    gap: 80px;
+    flex-direction: row;
+    border-radius: 20px;
+    background: #3b3b3b;
+  }
+
+  .Subscribe-widget-containner img {
+    width: 425px;
+    height: 310px;
+  }
+
+  .Subscribe-widget-description {
+    width: 425px;
+  }
+
+  .Subscribe-widget-description .Headline-Subhead-Subscribe-widget h1 {
+    font-size: 38px;
+
+    font-weight: 600;
+    line-height: 120%;
+    text-transform: capitalize;
+  }
+
+  .Subscribe-widget-description .Headline-Subhead-Subscribe-widget p {
+    font-size: 22px;
+
+    font-weight: 400;
+    line-height: 160%;
+    text-transform: capitalize;
+  }
+
+  .Subscribe-Widget-btn {
+    width: 425px;
+    height: 60px;
+    flex-direction: row;
+    background-color: white;
+    position: relative;
+    border-radius: 20px;
+  }
+
+  .Subscribe-Widget-btn .Subscribe-Widget-btn-1 {
+    width: 100%;
+    border: 1px solid white;
+    border-right: 1px solid #a259ff;
+    height: 100%;
+    outline: none;
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 100%;
+  }
+
+  .Subscribe-Widget-btn-2 {
+    width: 179px;
+    height: 60px !important;
+    position: absolute;
+    right: 0;
+    top: 0;
+    bottom: 0;
+  }
+
+  .Footer {
+    padding-right: 146px;
+    padding-left: 146px;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .Footer-Info {
+    width: 238px;
+    margin-right: 84px;
   }
 }
