@@ -1709,4 +1709,8 @@ body {
     width: 238px;
     margin-right: 84px;
   }
+
+  .img-header-container {
+    margin-right: 0;
+  }
 }
